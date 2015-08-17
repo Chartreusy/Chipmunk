@@ -10,7 +10,11 @@ class Hoarder:
     # given a link, download the file
     def __init__(self):
         # need a location to dl them to
+        # need a db of sorts to keep track fo what we already have
         a=2
+
+
+    def locate(self, criterion):
 
     def getFile(self, url, dest):
         fileInfo = urllib.urlretrieve(url, dest)
